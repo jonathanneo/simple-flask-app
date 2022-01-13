@@ -1,9 +1,20 @@
 # Tutorial: deploying your flask app to heroku 
 
-- [1. Create your conda environment](#create-conda-environment)
-- [2. Install python dependencies](#install-python-dependencies)
-- [3. Create application](#create-application)
-- [4. Deploy application](#deploy-application)
+- [1. Create and clone your repo](#create-repo)
+- [2. Create your conda environment](#create-conda-environment)
+- [3. Install python dependencies](#install-python-dependencies)
+- [4. Create application](#create-application)
+- [5. Deploy application](#deploy-application)
+
+## Create repo
+
+Create a new github repository to store your code. 
+
+Clone the new repo to your computer by doing: 
+
+```
+git clone <repo_url>
+```
 
 ## Create conda environment
 
@@ -191,6 +202,16 @@ A popular and easy to use one is [Heroku](https://www.heroku.com/).
 You will need to go to https://www.heroku.com/ to sign up and create an account. 
 
 To deploy your application to Heroku, follow the steps below. 
+
+### Push your code to github 
+
+Push your code to github. Heroku will deploy the code which is in your repo. 
+
+```
+git add . 
+git commit -m "commit message here"
+git push 
+```
 
 ### Freeze pip requirements 
 
