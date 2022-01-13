@@ -1,7 +1,4 @@
 from flask import Flask, render_template
-
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 
 # database setup 
@@ -10,15 +7,12 @@ engine = create_engine("sqlite:///titanic.sqlite")
 # flask app setup
 app = Flask(__name__)
 
-
 @app.route("/")
-def welcome():
-    """List all available api routes."""
+def index():
     return render_template("index.html")
 
 @app.route("/api/names")
 def names():
-    # Create our session (link) from Python to the DB
     results = [
         {
             "id": list(row)[0],
