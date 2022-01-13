@@ -1,6 +1,9 @@
 # Tutorial: deploying your flask app to heroku 
 
-- [1. Create your conda environment](create-conda-environment)
+- [1. Create your conda environment](#create-conda-environment)
+- [2. Install python dependencies](#install-python-dependencies)
+- [3. Create application](#create-application)
+- [4. Deploy application](#deploy-application)
 
 ## Create conda environment
 
