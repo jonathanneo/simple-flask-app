@@ -245,6 +245,18 @@ You are now ready to deploy your application. The next step below will step thro
     ![heroku-2](images/heroku-2.png)
 
 3. Change the deployment method to "GitHub" and enter your repo-name to connect to your github repo 
+    ![heroku-3](images/heroku-3.png)
 
+4. Scroll to the bottom in the "Manual deploy" section and select the `main` branch and click `Deploy Branch` 
+    ![heroku-4](images/heroku-4.png)
+
+5. Allow 1 minute for your application to deploy. You should see the deploy logs execute in the meantime. 
+    ![heroku-5](images/heroku-5.png)
+
+6. Your app has deployed successfully! You should see a URL for your hosted application. 
+    ![heroku-6](images/heroku-6.png)
+
+7. Congrats, you have successfully created and deployed a Flask application on Heroku! 
+    ![heroku-7](images/heroku-7.png)
 
 
